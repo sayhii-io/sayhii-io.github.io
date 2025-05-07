@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Platform Documentation Blog</title>
+        <link>https://sayhii-io.github.io/blog</link>
+        <description>Platform Documentation Blog</description>
+        <lastBuildDate>Sat, 10 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[New Features for sayhii]]></title>
+            <link>https://sayhii-io.github.io/blog/v0.8.0</link>
+            <guid>https://sayhii-io.github.io/blog/v0.8.0</guid>
+            <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We've been working hard to update sayhii and improve our platform to meet the needs of our customers. Some of our most common questions have been:]]></description>
+            <content:encoded><![CDATA[<p>We've been working hard to update sayhii and improve our platform to meet the needs of our customers. Some of our most common questions have been:</p>
+<ul>
+<li>Can employees answer questions on a web page so we don't have to install the sayhii desktop app?</li>
+<li>Can we ask our own questions instead of just the standard sayhii questions?</li>
+</ul>
+<p>In our latest release, we've made changes to be able to answer both of these questions with a resounding <strong>YES</strong>!</p>
+<p>You'll want to refer to the documentation for more information. We'll just be touching on on the highlights here.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="custom-modules">Custom Modules<a href="https://sayhii-io.github.io/blog/v0.8.0#custom-modules" class="hash-link" aria-label="Direct link to Custom Modules" title="Direct link to Custom Modules">​</a></h2>
+<p>We made a change to the backend of sayhii a few months ago to make it easier for us to add different groups of questions to sayhii. We've even made it easier for us to add new algorithms for picking the next best question for users. You may have heard us referring to this change as <strong>modularization</strong>. Our first real enhancement to sayhii that takes advantage of these changes has been to implement a tool that allows our customers to define their own set of questions in a <strong>Custom Module</strong>.</p>
+<p>Creating a custom module allows our customers to define a specific set of questions that they want to ask their employees. We'll take care of giving everyone in the organization an opportunity to answer the questions and then we provide average answers for the whole module by your organizational department. You also get to see the questions that have the highest and lowest average answers.</p>
+<p>For everyone in the organization, the can rest assured that sayhii will maintain the same level of anonymity with these questions. We always want people to feel confident in answering questions on our platform.</p>
+<p>You can take advantage of the daily habit of answering a question a day that sayhii develops to get feedback for questions that may be specific to your organization!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="module-scheduling">Module Scheduling<a href="https://sayhii-io.github.io/blog/v0.8.0#module-scheduling" class="hash-link" aria-label="Direct link to Module Scheduling" title="Direct link to Module Scheduling">​</a></h2>
+<p>Once you've created a <strong>Custom Module</strong>, you can schedule when you want those questions to be sent to users. When you schedule modules, these questions will be <em>in addition to</em> the standard daily sayhii question(s).</p>
+<p>To help avoid question overload:</p>
+<ul>
+<li>Only one module can be scheduled at a time</li>
+<li>Scheduled modules will never ask more than one question per day</li>
+</ul>
+<p>In this release, you'll only have the ability to schedule modules that you have created. In the future, sayhii will release modules that can be scheduled to assess different aspects of your business or may allow you to dig in on a particular topic of interest.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="questions-in-the-portal">Questions in the Portal<a href="https://sayhii-io.github.io/blog/v0.8.0#questions-in-the-portal" class="hash-link" aria-label="Direct link to Questions in the Portal" title="Direct link to Questions in the Portal">​</a></h2>
+<p>Some organizations have users that would like to participate in sayhii but can't use the desktop application for one reason or another. We've been working to meet users where they are and provide more options for answering sayhii questions.</p>
+<p>Our first step in this direction has been to incorporate the sayhii question application directly into our sayhii Portal site. For users that choose to enable this feature, they will be asked a question - if they haven't already answered a question that day - when they log in to the sayhii Portal.</p>
+<p>We're hoping this allows more employees to be able to participate in sayhii and make sure that <strong>everyone's voice is heard</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-for-reading">Thanks for Reading<a href="https://sayhii-io.github.io/blog/v0.8.0#thanks-for-reading" class="hash-link" aria-label="Direct link to Thanks for Reading" title="Direct link to Thanks for Reading">​</a></h2>
+<p>If you've made it this far, thanks for reading! We hope that these new features can make sayhii even more valuable in helping employees engage with the organization.</p>]]></content:encoded>
+            <category>sayhii</category>
+        </item>
+        <item>
+            <title><![CDATA[The Connection Between Engagement and Skill Development]]></title>
+            <link>https://sayhii-io.github.io/blog/engagement-and-skill-development</link>
+            <guid>https://sayhii-io.github.io/blog/engagement-and-skill-development</guid>
+            <pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology is rapidly evolving, industries are transforming overnight, and one truth remains constant: engaged individuals learn faster, retain more, and develop deeper skills. Whether in the workplace, the classroom, or personal growth, engagement fuels the development of expertise, making learning both meaningful and sustainable.]]></description>
+            <content:encoded><![CDATA[<p>Technology is rapidly evolving, industries are transforming overnight, and one truth remains constant: engaged individuals learn faster, retain more, and develop deeper skills. Whether in the workplace, the classroom, or personal growth, engagement fuels the development of expertise, making learning both meaningful and sustainable.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="engagement-the-catalyst-for-growth">Engagement: The Catalyst for Growth<a href="https://sayhii-io.github.io/blog/engagement-and-skill-development#engagement-the-catalyst-for-growth" class="hash-link" aria-label="Direct link to Engagement: The Catalyst for Growth" title="Direct link to Engagement: The Catalyst for Growth">​</a></h2>
+<p>Engagement is more than just showing up—it’s about being emotionally and intellectually invested in a task. When people are engaged, they are curious, persistent, and willing to explore new challenges. This deep involvement creates an optimal state for learning, where skills are not only acquired but also applied and refined in real-world contexts.</p>
+<p>Engagement thrives in environments that are:</p>
+<ol>
+<li>
+<p><strong>Stimulating</strong> – Presenting new challenges and opportunities.</p>
+</li>
+<li>
+<p><strong>Purpose-Driven</strong> – Connecting tasks to a larger mission or personal goal.</p>
+</li>
+<li>
+<p><strong>Interactive</strong> – Encouraging participation, feedback, and collaboration.</p>
+</li>
+<li>
+<p><strong>Autonomous</strong> – Allowing individuals to take ownership of their learning.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-neuroscience-of-engagement-and-learning">The Neuroscience of Engagement and Learning<a href="https://sayhii-io.github.io/blog/engagement-and-skill-development#the-neuroscience-of-engagement-and-learning" class="hash-link" aria-label="Direct link to The Neuroscience of Engagement and Learning" title="Direct link to The Neuroscience of Engagement and Learning">​</a></h2>
+<p>Neuroscience has shown that engagement enhances neuroplasticity—the brain’s ability to form and strengthen neural connections. When individuals are engaged, dopamine, a neurotransmitter linked to motivation and reward, is released, reinforcing learning pathways and making skill acquisition not only faster but also more enjoyable.</p>
+<p>The brain's frontal cortex, responsible for executive functions such as problem-solving, focus, and decision-making, plays a crucial role in engagement. When individuals are deeply involved in a task, the frontal cortex is highly active, directing attention and organizing information in a way that supports deeper learning. On the other hand, the rear cortex, which processes sensory input and helps contextualize experiences, works in tandem with the frontal cortex to integrate new knowledge with existing frameworks. This collaboration between the two regions strengthens comprehension and retention.</p>
+<p><img decoding="async" loading="lazy" alt="unstressed vs. stressed brain function" src="https://sayhii-io.github.io/assets/images/060620_LS_inline-2-brains_desktop-8588b66fddf057cffab035dd7ac00eca.jpg" width="680" height="373" class="img_ev3q"></p>
+<p>Furthermore, engaged learners enter a state of "flow," as described by psychologist Mihaly Csikszentmihalyi. In this state, the frontal cortex remains highly active while non-essential mental distractions fade into the background. The rear cortex simultaneously processes environmental cues with heightened efficiency, allowing individuals to become fully immersed in their work, losing track of time and performing at their highest potential. Flow optimizes learning, reinforcing skill development through continuous challenge and feedback while maintaining an ideal balance between focus and creativity.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-engagement-drives-skill-development">How Engagement Drives Skill Development<a href="https://sayhii-io.github.io/blog/engagement-and-skill-development#how-engagement-drives-skill-development" class="hash-link" aria-label="Direct link to How Engagement Drives Skill Development" title="Direct link to How Engagement Drives Skill Development">​</a></h2>
+<ol>
+<li>
+<p><strong>Active Participation Enhances Retention</strong> - Studies have shown that passive learning—such as listening to lectures or reading without interaction—results in lower retention rates. In contrast, hands-on engagement, such as solving problems, working on projects, or engaging in discussion, leads to deeper understanding and long-term skill mastery.</p>
+</li>
+<li>
+<p><strong>Engagement Builds Adaptive Expertise</strong> - A highly engaged individual doesn’t just learn a skill; they learn how to adapt it to different situations. This ability to transfer knowledge across various domains is critical in today’s rapidly changing workforce, where employees must continuously evolve with emerging technologies and market trends.</p>
+</li>
+<li>
+<p><strong>Emotional Investment Strengthens Commitment</strong> - When individuals feel a personal connection to what they are learning, they are more likely to persist through challenges. A student passionate about coding, for example, will spend hours debugging a program, refining their logic, and seeking improvement—not because they have to, but because they are internally driven to do so.</p>
+</li>
+<li>
+<p><strong>Collaboration and Social Learning Accelerate Growth</strong> - Engagement is amplified in environments where learners can collaborate, exchange ideas, and receive feedback. Whether in a corporate training session or an online course, learning alongside others fosters deeper comprehension, exposes individuals to new perspectives, and reinforces skills through discussion and peer interaction.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bridging-engagement-and-skill-development-in-organizations">Bridging Engagement and Skill Development in Organizations<a href="https://sayhii-io.github.io/blog/engagement-and-skill-development#bridging-engagement-and-skill-development-in-organizations" class="hash-link" aria-label="Direct link to Bridging Engagement and Skill Development in Organizations" title="Direct link to Bridging Engagement and Skill Development in Organizations">​</a></h2>
+<p>Leaders and educators can foster engagement-driven learning environments by:</p>
+<ul>
+<li>
+<p><strong>Creating Real-World Challenges</strong> – Providing opportunities for employees or students to work on meaningful, practical problems.</p>
+</li>
+<li>
+<p><strong>Encouraging Autonomy</strong> – Giving individuals the freedom to explore, experiment, and take ownership of their learning journey.</p>
+</li>
+<li>
+<p><strong>Recognizing and Rewarding Growth</strong> – Celebrating progress and providing incentives for continued development.</p>
+</li>
+<li>
+<p><strong>Investing in Interactive Learning Tools</strong> – Leveraging technology, gamification, and collaborative platforms to make learning more immersive.</p>
+</li>
+</ul>
+<p>Final Thoughts: Engagement is the Key to Mastery
+Skill development isn’t just about knowledge acquisition—it’s about fostering curiosity, resilience, and a passion for growth. Engagement is the bridge that connects learning with mastery, ensuring that individuals not only develop new skills but also have the motivation and mindset to apply them effectively.</p>
+<p>By cultivating environments where engagement is prioritized, we unlock the potential for lifelong learning, innovation, and continuous improvement. Whether in the workplace, academia, or personal endeavors, the more engaged we are, the greater our capacity to grow.</p>]]></content:encoded>
+            <category>Thought Leadership</category>
+            <category>Skill Development</category>
+        </item>
+    </channel>
+</rss>
