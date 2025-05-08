@@ -12,33 +12,38 @@
         <id>https://sayhii-io.github.io/blog/v0.8.0</id>
         <link href="https://sayhii-io.github.io/blog/v0.8.0"/>
         <updated>2025-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We've been working hard to update sayhii and improve our platform to meet the needs of our customers. Some of our most common questions have been:]]></summary>
-        <content type="html"><![CDATA[<p>We've been working hard to update sayhii and improve our platform to meet the needs of our customers. Some of our most common questions have been:</p>
+        <summary type="html"><![CDATA[We've been working hard to update sayhii and improve our platform to better meet the needs of our customers. Two of the most common questions we hear are:]]></summary>
+        <content type="html"><![CDATA[<p>We've been working hard to update sayhii and improve our platform to better meet the needs of our customers. Two of the most common questions we hear are:</p>
 <ul>
 <li>Can employees answer questions on a web page so we don't have to install the sayhii desktop app?</li>
 <li>Can we ask our own questions instead of just the standard sayhii questions?</li>
 </ul>
-<p>In our latest release, we've made changes to be able to answer both of these questions with a resounding <strong>YES</strong>!</p>
-<p>You'll want to refer to the documentation for more information. We'll just be touching on on the highlights here.</p>
+<p>With our latest release, we're excited to say the answer to both is a resounding <strong>YES</strong>!</p>
+<p>For full details, you’ll want to refer to the documentation — but here are the highlights.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="custom-modules">Custom Modules<a href="https://sayhii-io.github.io/blog/v0.8.0#custom-modules" class="hash-link" aria-label="Direct link to Custom Modules" title="Direct link to Custom Modules">​</a></h2>
-<p>We made a change to the backend of sayhii a few months ago to make it easier for us to add different groups of questions to sayhii. We've even made it easier for us to add new algorithms for picking the next best question for users. You may have heard us referring to this change as <strong>modularization</strong>. Our first real enhancement to sayhii that takes advantage of these changes has been to implement a tool that allows our customers to define their own set of questions in a <strong>Custom Module</strong>.</p>
-<p>Creating a custom module allows our customers to define a specific set of questions that they want to ask their employees. We'll take care of giving everyone in the organization an opportunity to answer the questions and then we provide average answers for the whole module by your organizational department. You also get to see the questions that have the highest and lowest average answers.</p>
-<p>For everyone in the organization, they can rest assured that sayhii will maintain the same level of anonymity with these questions. We always want people to feel confident in answering questions on our platform.</p>
-<p>You can take advantage of the daily habit of answering a question a day that sayhii develops to get feedback for questions that may be specific to your organization!</p>
+<p>A few months ago, we made foundational changes to the sayhii backend to support different types of question sets and new algorithms for selecting the next best question for each user. Internally, we've called this work <strong>modularization</strong>. Our first major feature built on this foundation is support for <strong>Custom Modules</strong>.</p>
+<p>Custom Modules allow you to define a specific set of questions you'd like to ask your employees. sayhii handles the delivery, and you'll receive aggregate results broken down by department. We also highlight which questions received the highest and lowest average scores to help you spot trends quickly.</p>
+<p>Just like our standard questions, Custom Modules maintain full anonymity for respondents — so employees can feel just as confident and safe when sharing their feedback.</p>
+<p>This is a great way to build on the daily habit sayhii helps cultivate and gather insight on questions specific to your organization.</p>
+<p>Check out the <a href="https://sayhii-io.github.io/docs/portal-admin/custom-modules">sayhii documentation</a> for more details, including a video walkthrough of creating your first custom module.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="module-scheduling">Module Scheduling<a href="https://sayhii-io.github.io/blog/v0.8.0#module-scheduling" class="hash-link" aria-label="Direct link to Module Scheduling" title="Direct link to Module Scheduling">​</a></h2>
-<p>Once you've created a <strong>Custom Module</strong>, you can schedule when you want those questions to be sent to users. When you schedule modules, these questions will be <em>in addition to</em> the standard daily sayhii question(s).</p>
+<p>Once you've created a <strong>Custom Module</strong>, you can decide when you'd like those questions to be sent to users. These questions are delivered <em>in addition to</em> the standard daily sayhii questions.</p>
 <p>To help avoid question overload:</p>
 <ul>
 <li>Only one module can be scheduled at a time</li>
-<li>Scheduled modules will never ask more than one question per day</li>
+<li>No more than one question per day will be delivered from a scheduled module</li>
 </ul>
-<p>In this release, you'll only have the ability to schedule modules that you have created. In the future, sayhii will release modules that can be scheduled to assess different aspects of your business or may allow you to dig in on a particular topic of interest.</p>
+<p>For now, you can only schedule the modules you've created. In the future, we plan to offer prebuilt sayhii modules you can schedule to explore specific topics or assess different areas of your organization.</p>
+<p>Scheduled modules are managed as part of your organization's <a href="https://sayhii-io.github.io/docs/portal-settings/question-plan#scheduled-modules">Question Plan</a>, and that documentation provides additional guidance.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="questions-in-the-portal">Questions in the Portal<a href="https://sayhii-io.github.io/blog/v0.8.0#questions-in-the-portal" class="hash-link" aria-label="Direct link to Questions in the Portal" title="Direct link to Questions in the Portal">​</a></h2>
-<p>Some organizations have users that would like to participate in sayhii but can't use the desktop application for one reason or another. We've been working to meet users where they are and provide more options for answering sayhii questions.</p>
-<p>Our first step in this direction has been to incorporate the sayhii question application directly into our sayhii Portal site. For users that choose to enable this feature, they will be asked a question - if they haven't already answered a question that day - when they log in to the sayhii Portal.</p>
-<p>We're hoping this allows more employees to be able to participate in sayhii and make sure that <strong>everyone's voice is heard</strong>.</p>
+<p>Some organizations have employees who can’t use the desktop application for various reasons. We've been working to meet users where they are — and our first step is bringing the sayhii question experience directly into the sayhii Portal.</p>
+<p>When this feature is enabled, users will be prompted with the current question — if they haven't already answered that day — as soon as they log in to the Portal.</p>
+<p>We hope this option allows more employees to participate and ensures that <strong>everyone's voice is heard</strong>.</p>
+<p>If you'd like to enable this for your team, you can share this <a href="https://sayhii-io.github.io/docs/portal-everyone/profile#sayhii-questions-in-the-portal">guide</a> with them to get started.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation">Documentation<a href="https://sayhii-io.github.io/blog/v0.8.0#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation">​</a></h2>
+<p>If you're reading this, you’ve already found our new <a href="https://sayhii-io.github.io/">Documentation Site</a>! We hope it’s helpful as you explore what sayhii can do — especially when it comes to understanding the insights we surface. We'll keep this site up to date with the latest changes, with a focus on the technical side of using sayhii.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-for-reading">Thanks for Reading<a href="https://sayhii-io.github.io/blog/v0.8.0#thanks-for-reading" class="hash-link" aria-label="Direct link to Thanks for Reading" title="Direct link to Thanks for Reading">​</a></h2>
-<p>If you've made it this far, thanks for reading! We hope that these new features can make sayhii even more valuable in helping employees engage with the organization.</p>]]></content>
+<p>If you’ve made it this far — thank you! We’re excited to bring these new features to you, and we hope they make sayhii even more valuable in helping employees engage with your organization.</p>]]></content>
         <author>
             <name>David Russell</name>
             <uri>https://sayhii.io</uri>
