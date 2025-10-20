@@ -1,0 +1,642 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "sayhii-organization-api",
+    "version" : "2025-10-16T17:44:46Z"
+  },
+  "servers" : [ {
+    "url" : "https://connect.sayhii.io"
+  } ],
+  "paths" : {
+    "/users" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "limit",
+          "in" : "query",
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "nextToken",
+          "in" : "query",
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : { }
+          },
+          "400" : {
+            "description" : "400 response",
+            "content" : { }
+          },
+          "401" : {
+            "description" : "401 response",
+            "content" : { }
+          },
+          "500" : {
+            "description" : "500 response",
+            "content" : { }
+          },
+          "502" : {
+            "description" : "502 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "post" : {
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ArrayOfUserSchema"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "400" : {
+            "description" : "400 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          },
+          "210" : {
+            "description" : "210 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/UserCreationResponse"
+                }
+              }
+            }
+          },
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/UserCreationResponse"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "options" : {
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "headers" : {
+              "Access-Control-Allow-Origin" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Allow-Methods" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Max-Age" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "content" : { }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      }
+    },
+    "/users/{id}" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "404" : {
+            "description" : "404 response",
+            "content" : { }
+          },
+          "401" : {
+            "description" : "401 response",
+            "content" : { }
+          },
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/UserSchema"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "options" : {
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "headers" : {
+              "Access-Control-Allow-Origin" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Allow-Methods" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Max-Age" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "content" : { }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      }
+    },
+    "/dictionaries" : {
+      "get" : {
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DictionarySchema"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "400 response",
+            "content" : { }
+          },
+          "401" : {
+            "description" : "401 response",
+            "content" : { }
+          },
+          "500" : {
+            "description" : "500 response",
+            "content" : { }
+          },
+          "502" : {
+            "description" : "502 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "put" : {
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/DictionarySchema"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : { }
+          },
+          "400" : {
+            "description" : "400 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "500 response",
+            "content" : { }
+          },
+          "502" : {
+            "description" : "502 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "options" : {
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "headers" : {
+              "Access-Control-Allow-Origin" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Allow-Methods" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Max-Age" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "content" : { }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "patch" : {
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/DictionarySchema"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : { }
+          },
+          "400" : {
+            "description" : "400 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "500 response",
+            "content" : { }
+          },
+          "502" : {
+            "description" : "502 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RequestError"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      }
+    },
+    "/dictionaries/{dictionaryType}" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "dictionaryType",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "404" : {
+            "description" : "404 response",
+            "content" : { }
+          },
+          "401" : {
+            "description" : "401 response",
+            "content" : { }
+          },
+          "200" : {
+            "description" : "200 response",
+            "content" : { }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      },
+      "options" : {
+        "parameters" : [ {
+          "name" : "dictionaryType",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "headers" : {
+              "Access-Control-Allow-Origin" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Allow-Methods" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "Access-Control-Max-Age" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "content" : { }
+          }
+        },
+        "security" : [ {
+          "ApiKeyAuthorizer" : [ ]
+        } ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "RequestError" : {
+        "required" : [ "message" ],
+        "type" : "object",
+        "properties" : {
+          "stack" : {
+            "type" : "string",
+            "description" : "Stack trace or additional debugging information"
+          },
+          "details" : {
+            "type" : "string",
+            "description" : "Additional details about the error"
+          },
+          "message" : {
+            "type" : "string",
+            "description" : "Description of the error"
+          }
+        }
+      },
+      "UserCreationResponse" : {
+        "required" : [ "failureCount", "message", "successCount" ],
+        "type" : "object",
+        "properties" : {
+          "successCount" : {
+            "type" : "integer",
+            "description" : "The number of users successfully processed",
+            "format" : "int32"
+          },
+          "message" : {
+            "type" : "string"
+          },
+          "errors" : {
+            "type" : "array",
+            "description" : "A list of errors encountered during processing",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "error" : {
+                  "type" : "string",
+                  "description" : "Description of the error encountered"
+                },
+                "userId" : {
+                  "type" : "string",
+                  "description" : "The ID of the user that encountered an error"
+                }
+              }
+            }
+          },
+          "failureCount" : {
+            "type" : "integer",
+            "description" : "The number of users that failed to be processed",
+            "format" : "int32"
+          }
+        }
+      },
+      "DictionarySchema" : {
+        "type" : "object",
+        "properties" : {
+          "jobFunction" : {
+            "type" : "array",
+            "description" : "The values for the jobFunction dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "role" : {
+            "type" : "array",
+            "description" : "The values for the role dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "gender" : {
+            "type" : "array",
+            "description" : "The values for the gender dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "race" : {
+            "type" : "array",
+            "description" : "The values for the race dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "ethnicity" : {
+            "type" : "array",
+            "description" : "The values for the ethnicity dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "workType" : {
+            "type" : "array",
+            "description" : "TThe values for the workType dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "department" : {
+            "type" : "array",
+            "description" : "The values for the department dictionary",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        }
+      },
+      "ArrayOfUserSchema" : {
+        "type" : "array",
+        "items" : {
+          "$ref" : "#/components/schemas/UserSchema"
+        }
+      },
+      "UserSchema" : {
+        "required" : [ "email", "id" ],
+        "type" : "object",
+        "properties" : {
+          "lastName" : {
+            "type" : "string",
+            "description" : "The last name of the user"
+          },
+          "role" : {
+            "type" : "string",
+            "description" : "The role of the user"
+          },
+          "race" : {
+            "type" : "string",
+            "description" : "The race of the user"
+          },
+          "ethnicity" : {
+            "type" : "string",
+            "description" : "The ethnicity of the user"
+          },
+          "gender" : {
+            "type" : "string",
+            "description" : "The gender of the user"
+          },
+          "managerGuid" : {
+            "type" : "string",
+            "description" : "The unique identifier for the user's manager."
+          },
+          "hireYearAndMonth" : {
+            "type" : "string",
+            "description" : "The year and month when the employee was hired in the format YYYY.MM"
+          },
+          "firstName" : {
+            "type" : "string",
+            "description" : "The first name of the user"
+          },
+          "managerEmail" : {
+            "type" : "string",
+            "description" : "The email address of the user's manager. This will be used to build a reporting/management hierarchy."
+          },
+          "jobFunction" : {
+            "type" : "string",
+            "description" : "The job function of the user"
+          },
+          "workType" : {
+            "type" : "string",
+            "description" : "The work type of the user"
+          },
+          "guid" : {
+            "type" : "string",
+            "description" : "An alternate identifier for the user."
+          },
+          "disabled" : {
+            "type" : "boolean",
+            "description" : "The disabled status of the user. Disabled users cannot log in or access the system. The default is false."
+          },
+          "portalQuestions" : {
+            "type" : "boolean",
+            "description" : "Boolean indicating whether the user should receive/answer questions in the sayhii portal. The default is false."
+          },
+          "id" : {
+            "type" : "string",
+            "description" : "A unique identifier for the user. This must be unique within the organization and consistent across updates."
+          },
+          "department" : {
+            "type" : "string",
+            "description" : "The department of the user. This will be used to help group users for reporting."
+          },
+          "terminated" : {
+            "type" : "string",
+            "description" : "The termination status of the user (Y - the user has been terminated, N - the user is active)."
+          },
+          "workingZipCode" : {
+            "type" : "string",
+            "description" : "The working zip code of the user"
+          },
+          "email" : {
+            "type" : "string",
+            "description" : "The email address of the user, this must be unique within the organization"
+          },
+          "yearOfBirth" : {
+            "type" : "string",
+            "description" : "The year of birth of the user"
+          }
+        }
+      }
+    },
+    "securitySchemes" : {
+      "ApiKeyAuthorizer" : {
+        "type" : "apiKey",
+        "name" : "Authorization",
+        "in" : "header",
+        "x-amazon-apigateway-authtype" : "custom"
+      }
+    }
+  }
+}
