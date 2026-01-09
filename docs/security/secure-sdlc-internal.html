@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-security/internal/secure-sdlc" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Secure Software Development Lifecycle (SDLC) &amp; Secure Review Policy | Platform Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sayhii-io.github.io/img/sayhii-social-card.png"><meta data-rh="true" name="twitter:image" content="https://sayhii-io.github.io/img/sayhii-social-card.png"><meta data-rh="true" property="og:url" content="https://sayhii-io.github.io/docs/security/secure-sdlc-internal"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Secure Software Development Lifecycle (SDLC) &amp; Secure Review Policy | Platform Documentation"><meta data-rh="true" name="description" content="Effective date: January 1, 2026"><meta data-rh="true" property="og:description" content="Effective date: January 1, 2026"><meta data-rh="true" name="robots" content="noindex, nofollow"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sayhii-io.github.io/docs/security/secure-sdlc-internal"><link data-rh="true" rel="alternate" href="https://sayhii-io.github.io/docs/security/secure-sdlc-internal" hreflang="en"><link data-rh="true" rel="alternate" href="https://sayhii-io.github.io/docs/security/secure-sdlc-internal" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"sayhii Security Policies","item":"https://sayhii-io.github.io/docs/category/sayhii-security-policies"},{"@type":"ListItem","position":2,"name":"Secure Software Development Lifecycle (SDLC) & Secure Review Policy","item":"https://sayhii-io.github.io/docs/security/secure-sdlc-internal"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Platform Documentation RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Platform Documentation Atom Feed"><link rel="stylesheet" href="/assets/css/styles.36d63f8c.css">
+<script src="/assets/js/runtime~main.70760e8a.js" defer="defer"></script>
+<script src="/assets/js/main.2b633966.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/sayhii_logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/sayhii_logo.svg" alt="sayhii logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/sayhii_logo.svg" alt="sayhii logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Docs</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro">sayhii Overview</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/sayhii-portal---everyone">sayhii Portal - Everyone</a><button aria-label="Expand sidebar category &#x27;sayhii Portal - Everyone&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/sayhii-portal---admin">sayhii Portal - Admin</a><button aria-label="Expand sidebar category &#x27;sayhii Portal - Admin&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/sayhii-portal---settings">sayhii Portal - Settings</a><button aria-label="Expand sidebar category &#x27;sayhii Portal - Settings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/sayhii-app">sayhii App</a><button aria-label="Expand sidebar category &#x27;sayhii App&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed hidden"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/sayhii-api/overview">sayhii API</a><button aria-label="Expand sidebar category &#x27;sayhii API&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/category/sayhii-security-policies">sayhii Security Policies</a><button aria-label="Collapse sidebar category &#x27;sayhii Security Policies&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/security/data-privacy-retention">sayhii Data Privacy Policy</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/security/incident-response">Incident Response Policy</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a href="#" class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0">internal</a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/security/secure-sdlc-internal">Secure Software Development Lifecycle (SDLC) &amp; Secure Review Policy</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/security/secure-sdlc">Secure Software Development Lifecycle (SDLC)</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/getting-started">sayhii Onboarding Checklist</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning theme-unlisted-banner"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Unlisted page</div><div class="admonitionContent_BuS1">This page is unlisted. Search engines will not index it, and only users having a direct link can access it.</div></div><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/sayhii-security-policies"><span>sayhii Security Policies</span></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">internal</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Secure Software Development Lifecycle (SDLC) &amp; Secure Review Policy</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Secure Software Development Lifecycle (SDLC) &amp; Secure Review Policy</h1></header>
+<p><strong>Effective date:</strong> <em>January 1, 2026</em><br>
+<strong>Owner:</strong> <em>Chief Technology Officer</em><br>
+<strong>Applies to:</strong> sayhii core backend services, desktop applications, mobile applications, web applications, and analytics systems</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-purpose">1. Purpose<a href="#1-purpose" class="hash-link" aria-label="Direct link to 1. Purpose" title="Direct link to 1. Purpose">​</a></h2>
+<p>This policy defines the principles and high-level practices sayhii follows to design, develop, review, test, and release software securely. The objective is to reduce the likelihood and impact of security defects, protect customer data, and maintain trust, while remaining proportional to the size, risk profile, and maturity of the organization.</p>
+<p>This policy is intentionally principles-based and technology-agnostic. Detailed procedures and tooling may evolve over time without requiring changes to this policy.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-scope">2. Scope<a href="#2-scope" class="hash-link" aria-label="Direct link to 2. Scope" title="Direct link to 2. Scope">​</a></h2>
+<p>This policy applies to the development and maintenance of sayhii software systems, including:</p>
+<ul>
+<li>Core backend services</li>
+<li>Desktop applications</li>
+<li>Mobile applications</li>
+<li>Web applications</li>
+<li>Analytics and data processing pipelines</li>
+</ul>
+<p>Compliance with this policy is required for all in-scope software development activities.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-guiding-principles">3. Guiding Principles<a href="#3-guiding-principles" class="hash-link" aria-label="Direct link to 3. Guiding Principles" title="Direct link to 3. Guiding Principles">​</a></h2>
+<p>sayhii follows these guiding principles when developing software:</p>
+<ul>
+<li><strong>Security is everyone’s responsibility.</strong> Secure design and implementation are shared responsibilities across all contributors.</li>
+<li><strong>Risk-based decision making.</strong> The depth of security review and testing is proportional to the risk of the change.</li>
+<li><strong>Preventative controls are preferred.</strong> Where feasible, preventative controls (e.g., design safeguards, automated checks) are favored over detective or reactive controls.</li>
+<li><strong>Least privilege and isolation.</strong> Systems are designed to minimize access, prevent cross-tenant exposure, and limit blast radius.</li>
+<li><strong>Continuous improvement.</strong> Secure development practices are reviewed and improved over time as the organization and product evolve.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-change-initiation-and-classification">4. Change Initiation and Classification<a href="#4-change-initiation-and-classification" class="hash-link" aria-label="Direct link to 4. Change Initiation and Classification" title="Direct link to 4. Change Initiation and Classification">​</a></h2>
+<p>Development work may begin through ad hoc branching or planned feature development. Changes are generally classified informally as one or more of the following:</p>
+<ul>
+<li>New features or enhancements</li>
+<li>Bug fixes</li>
+<li>Maintenance or refactoring</li>
+</ul>
+<p>Certain changes are considered <strong>higher risk</strong> and receive increased scrutiny. These may include, but are not limited to:</p>
+<ul>
+<li>Authentication or authorization logic</li>
+<li>Handling of personally identifiable information (PII)</li>
+<li>Data access controls or anonymization logic</li>
+<li>Cross-tenant data boundaries</li>
+</ul>
+<p>Risk classification is determined by the developer and reviewer based on professional judgment and system impact.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-secure-design-considerations">5. Secure Design Considerations<a href="#5-secure-design-considerations" class="hash-link" aria-label="Direct link to 5. Secure Design Considerations" title="Direct link to 5. Secure Design Considerations">​</a></h2>
+<p>When designing or modifying software, developers consider security implications as part of normal design activities, including:</p>
+<ul>
+<li>Data exposure and sensitivity</li>
+<li>Authentication and authorization boundaries</li>
+<li>Tenant isolation and cross-organization access controls</li>
+<li>Encryption in transit and at rest</li>
+<li>Application of anonymization and aggregation rules for reporting</li>
+</ul>
+<p>Higher-risk changes may involve additional review, design discussion, or consultation prior to implementation.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-development-and-code-review">6. Development and Code Review<a href="#6-development-and-code-review" class="hash-link" aria-label="Direct link to 6. Development and Code Review" title="Direct link to 6. Development and Code Review">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="61-development-practices">6.1 Development Practices<a href="#61-development-practices" class="hash-link" aria-label="Direct link to 6.1 Development Practices" title="Direct link to 6.1 Development Practices">​</a></h3>
+<ul>
+<li>Changes are developed in isolated branches.</li>
+<li>Direct commits to protected branches are not permitted.</li>
+<li>Secure coding practices are applied throughout development.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="62-code-review">6.2 Code Review<a href="#62-code-review" class="hash-link" aria-label="Direct link to 6.2 Code Review" title="Direct link to 6.2 Code Review">​</a></h3>
+<ul>
+<li>All externally contributed code is reviewed prior to merge.</li>
+<li>Internal code changes are reviewed using a risk-based approach.</li>
+<li>Reviews consider functional correctness, maintainability, and security implications.</li>
+</ul>
+<p>In environments with limited staffing, review practices may be adapted while maintaining accountability and security awareness.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-automated-and-preventative-controls">7. Automated and Preventative Controls<a href="#7-automated-and-preventative-controls" class="hash-link" aria-label="Direct link to 7. Automated and Preventative Controls" title="Direct link to 7. Automated and Preventative Controls">​</a></h2>
+<p>Where feasible, development workflows incorporate automated controls, which may include:</p>
+<ul>
+<li>Automated builds and validation</li>
+<li>Unit or integration testing</li>
+<li>Static analysis or linting</li>
+<li>Dependency analysis</li>
+</ul>
+<p>Automated controls are intended to prevent defects from reaching production and to support consistent enforcement of development standards.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-testing-and-validation">8. Testing and Validation<a href="#8-testing-and-validation" class="hash-link" aria-label="Direct link to 8. Testing and Validation" title="Direct link to 8. Testing and Validation">​</a></h2>
+<p>Changes are validated prior to production release through a combination of:</p>
+<ul>
+<li>Local developer testing</li>
+<li>Deployment to non-production environments</li>
+<li>Manual functional verification</li>
+</ul>
+<p>Higher-risk changes may receive additional validation focused on security-relevant behavior.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-release-and-deployment">9. Release and Deployment<a href="#9-release-and-deployment" class="hash-link" aria-label="Direct link to 9. Release and Deployment" title="Direct link to 9. Release and Deployment">​</a></h2>
+<ul>
+<li>Production releases are manually approved and executed by authorized personnel.</li>
+<li>Deployment access is restricted according to access control policies.</li>
+<li>Deployment activity is logged through version control and delivery systems.</li>
+</ul>
+<p>Emergency changes may be deployed to address urgent issues. Such changes are reviewed after deployment to confirm correctness and identify improvements.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-production-access">10. Production Access<a href="#10-production-access" class="hash-link" aria-label="Direct link to 10. Production Access" title="Direct link to 10. Production Access">​</a></h2>
+<p>Direct access to production systems may be used for operational purposes under strict access controls. Access is limited, monitored, and granted only where necessary to support system reliability or incident response.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11-post-deployment-monitoring-and-response">11. Post-Deployment Monitoring and Response<a href="#11-post-deployment-monitoring-and-response" class="hash-link" aria-label="Direct link to 11. Post-Deployment Monitoring and Response" title="Direct link to 11. Post-Deployment Monitoring and Response">​</a></h2>
+<p>After release, systems are monitored through logging, alerts, and customer feedback. Identified issues are investigated and addressed in accordance with incident response and remediation processes.</p>
+<p>Rollback or mitigation actions may include reverting changes, redeploying prior versions, or disabling affected functionality.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="12-vulnerability-management">12. Vulnerability Management<a href="#12-vulnerability-management" class="hash-link" aria-label="Direct link to 12. Vulnerability Management" title="Direct link to 12. Vulnerability Management">​</a></h2>
+<p>Identified vulnerabilities, including third-party dependency issues, reported security concerns, or configuration weaknesses, are evaluated for impact and remediated in a timely manner when relevant.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="13-continuous-improvement">13. Continuous Improvement<a href="#13-continuous-improvement" class="hash-link" aria-label="Direct link to 13. Continuous Improvement" title="Direct link to 13. Continuous Improvement">​</a></h2>
+<p>Secure development practices are periodically reviewed and refined based on:</p>
+<ul>
+<li>Operational experience</li>
+<li>Security incidents or near-misses</li>
+<li>Product evolution and organizational growth</li>
+</ul>
+<p>Improvements may be documented in procedures, standards, or tooling without requiring changes to this policy.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="appendix-a-evidence-examples-informative">Appendix A: Evidence Examples (Informative)<a href="#appendix-a-evidence-examples-informative" class="hash-link" aria-label="Direct link to Appendix A: Evidence Examples (Informative)" title="Direct link to Appendix A: Evidence Examples (Informative)">​</a></h2>
+<p>Evidence supporting this policy may include, where applicable:</p>
+<ul>
+<li>Version control history and branch records</li>
+<li>Pull request reviews and approvals</li>
+<li>Automated build and test logs</li>
+<li>Deployment and release records</li>
+<li>Architecture or design documentation</li>
+</ul>
+<p>This appendix is illustrative and does not require all evidence types to exist for every change.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-purpose" class="table-of-contents__link toc-highlight">1. Purpose</a></li><li><a href="#2-scope" class="table-of-contents__link toc-highlight">2. Scope</a></li><li><a href="#3-guiding-principles" class="table-of-contents__link toc-highlight">3. Guiding Principles</a></li><li><a href="#4-change-initiation-and-classification" class="table-of-contents__link toc-highlight">4. Change Initiation and Classification</a></li><li><a href="#5-secure-design-considerations" class="table-of-contents__link toc-highlight">5. Secure Design Considerations</a></li><li><a href="#6-development-and-code-review" class="table-of-contents__link toc-highlight">6. Development and Code Review</a><ul><li><a href="#61-development-practices" class="table-of-contents__link toc-highlight">6.1 Development Practices</a></li><li><a href="#62-code-review" class="table-of-contents__link toc-highlight">6.2 Code Review</a></li></ul></li><li><a href="#7-automated-and-preventative-controls" class="table-of-contents__link toc-highlight">7. Automated and Preventative Controls</a></li><li><a href="#8-testing-and-validation" class="table-of-contents__link toc-highlight">8. Testing and Validation</a></li><li><a href="#9-release-and-deployment" class="table-of-contents__link toc-highlight">9. Release and Deployment</a></li><li><a href="#10-production-access" class="table-of-contents__link toc-highlight">10. Production Access</a></li><li><a href="#11-post-deployment-monitoring-and-response" class="table-of-contents__link toc-highlight">11. Post-Deployment Monitoring and Response</a></li><li><a href="#12-vulnerability-management" class="table-of-contents__link toc-highlight">12. Vulnerability Management</a></li><li><a href="#13-continuous-improvement" class="table-of-contents__link toc-highlight">13. Continuous Improvement</a></li><li><a href="#appendix-a-evidence-examples-informative" class="table-of-contents__link toc-highlight">Appendix A: Evidence Examples (Informative)</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 sayhii, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
