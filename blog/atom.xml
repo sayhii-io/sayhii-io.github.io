@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sayhii-io.github.io/blog</id>
     <title>Platform Documentation Blog</title>
-    <updated>2025-05-10T00:00:00.000Z</updated>
+    <updated>2026-03-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sayhii-io.github.io/blog"/>
     <subtitle>Platform Documentation Blog</subtitle>
     <icon>https://sayhii-io.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[User and Department Management Features]]></title>
+        <id>https://sayhii-io.github.io/blog/v1.1.0</id>
+        <link href="https://sayhii-io.github.io/blog/v1.1.0"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've heard from organizations that user and department management can be one of the most time-consuming parts of getting sayhii set up well. It matters because the right user list, department memberships, and department hierarchy all affect how questions are delivered and how reporting is organized.]]></summary>
+        <content type="html"><![CDATA[<p>We've heard from organizations that user and department management can be one of the most time-consuming parts of getting sayhii set up well. It matters because the right user list, department memberships, and department hierarchy all affect how questions are delivered and how reporting is organized.</p>
+<p>Looking ahead, we also want to give organizations more control over how different departments experience sayhii. You could imagine, for example, using different question phrasing for people in accounting than for people on the manufacturing floor.</p>
+<p>With this release, we've added a new interface to make it easier to manage your users, your department hierarchy, and user memberships in departments.</p>
+<p>For full details, you'll want to refer to the documentation, but here are the highlights.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-management">User Management<a href="https://sayhii-io.github.io/blog/v1.1.0#user-management" class="hash-link" aria-label="Direct link to User Management" title="Direct link to User Management">​</a></h2>
+<p>On the <a href="https://sayhii-io.github.io/docs/portal-admin/organization">Organization page</a> in the admin portal, you can now add individual users without first creating a CSV file to upload. You can also edit existing users directly, including details like manager, department, and role.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="department-management">Department Management<a href="https://sayhii-io.github.io/blog/v1.1.0#department-management" class="hash-link" aria-label="Direct link to Department Management" title="Direct link to Department Management">​</a></h2>
+<p>sayhii administrators can now create a custom department hierarchy for their organization.</p>
+<p>If your organization uses an <a href="https://sayhii-io.github.io/docs/portal-settings/hris-integration">HRIS integration</a>, you can import groups from your HRIS into the hierarchy or map HRIS groups to departments you've already defined in sayhii.</p>
+<p>If you aren't using an HRIS, you can still configure the hierarchy manually and map users from your file uploads into the right departments.</p>
+<p>This gives you more control over how reporting is structured across your organization.</p>
+<p>Department management is currently in beta and available by request.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-for-being-here">Thanks for being here<a href="https://sayhii-io.github.io/blog/v1.1.0#thanks-for-being-here" class="hash-link" aria-label="Direct link to Thanks for being here" title="Direct link to Thanks for being here">​</a></h2>
+<p>Thanks for reading. We hope these new tools make it easier to keep your sayhii organization up to date and your reporting structure aligned with the way your team actually works.</p>]]></content>
+        <author>
+            <name>David Russell</name>
+            <uri>https://sayhii.io</uri>
+        </author>
+        <category label="sayhii" term="sayhii"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Features for sayhii]]></title>
         <id>https://sayhii-io.github.io/blog/v0.8.0</id>
